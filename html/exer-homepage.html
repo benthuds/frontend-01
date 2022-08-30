@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Hudson Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			  width: 1200px;
+			  margin:2px auto 15px;
+			  
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: top;
+			  width: 100%;
+			  text-align: center;			   
+			  background: #ccc;
+			  padding: 10px;
+			  margin-bottom: 5px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 4px;
+			  margin: 0;
+
+			}
+
+			nav ul li {
+				display: inline-block;
+			}
+
+			nav ul li a {
+				text-decoration: none;
+				padding: 4px 20px;
+				font-size: 0.85em;
+			}
+
+			article {
+			  float: left;
+			  padding: 35px;
+			  width: 50%;
+			  background-color: #f1f1f1;
+			  margin-bottom: 10px;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  display: table;
+			  clear: both;
+			}
+
+			aside {
+				background-color: lightgray;
+				float: right;
+				width: 50%;
+				/*height: auto;*/
+				text-align: center;
+				margin: 0 auto 0;
+
+			}			
+			
+			/* Style the footer */
+			footer {
+			  clear: both;
+			  background-color: #777;
+			  padding: 5px;
+			  text-align: center;
+			  color: white;
+			  
+			}
+
+			footer p {
+				margin: -15px;
+			}
+
+			footer ul {
+				list-style-type: none;
+			}
+
+			footer ul li {
+				display: inline-block;
+			}
+
+			footer ul li a {
+				text-decoration: none;
+				padding: 15px;
+				font-size: 1em;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>		
+
+		<nav>
+			<!-- <h3>Aulas</h3> -->
+			<ul>
+				<li><a href="01-introducao.html">Introdução</a></li>
+				<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+				<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+				<li><a href="04-tabelas.html">Tabelas</a></li>
+				<li><a href="05-layouts.html">Layouts</a></li>
+				<li><a href="06-formularios.html">Formulários</a></li>
+			</ul>
+				
+		</nav>
+
+		<section>
+			<article>
+
+				<img width="200" src="https://lh3.googleusercontent.com/a-/AOh14GhJMYHNTUgR7xUiXgUHDUnNQ2h33dWYGvIzWxZXK3Y=s288-p-no" height="200" alt="Hudson Bento"> 
+
+				<h2>Hudson Bento</h2>
+
+				<p>
+					Analista de Infra de TI e Monitoramento (Cloud | Linux | Zabbix) <br>
+					<strong>Buscando Realocação</strong> 
+				</p>
+				
+
+			</article>
+		
+
+			<aside>
+
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aVevvbFNKiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<h6>
+					Mad World - Vintage Vaudeville <br>
+					Style Cover ft. Puddles Pity Party & Haley Reinhart
+				</h6> 
+			</aside>
+
+		</section>
+
+		<footer>
+			<h5>Desenvolvido por Hudson</h5>
+			
+			<p>Redes Sociais</p>
+				
+			<ul>
+				<li><a href="https://www.linkedin.com/in/hudsonbento/">LinkedIn</li>
+				<li><a href="https://www.instagram.com/beer.hudson/">@beer.hudson</li>
+			</ul>
+		</footer>
+		
+	</body>
+</html>
