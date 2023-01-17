@@ -12,12 +12,23 @@ body{
 
 }
 
-header{
-
+section{
+    background-color: aquamarine;
+    position: relative;
+    height: 50px;
 }
 
-section{
+header{
+    float: left;
+    width: 30%;
+}
 
+nav {
+    float: right;
+}
+
+nav, ul, li {
+    display: inline;
 }
 
 footer{
