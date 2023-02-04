@@ -1,2 +1,3 @@
 # thux.tech
-Curso Full Stack Python - EBAC
+## Este será o site da Thux Tecnology
+Acesse [aqui](https://thux.tech)
