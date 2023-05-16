@@ -30,14 +30,14 @@ nav {
 
 .menu {
     list-style: none;
-    /*border: 1px solid #c0c0c0;*/
+    border: 1px solid #c0c0c0;
     float: left;
 }
 
 .menu li {
     position: relative;
     float: left;
-    /*border-right: 1px solid #c0c0c0;*/
+    border-right: 1px solid #c0c0c0;
 }
 
 .menu li a {
@@ -59,7 +59,7 @@ nav {
     position: absolute;
     top: 30px;
     left: 0;
-    background-color: #fff;
+    background-color: #978;
     display: none;
 }
 
@@ -68,10 +68,68 @@ nav {
 }
 
 .menu li ul li {
-    /* border: 1px solid #00f;*/
+    border: 1px solid #00f;
     display: block;
     width: 150px;
 }
+
+#menu {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    position: relative;
+}
+
+/* Menu horizontal principal */
+#menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+    margin-right: -5px;
+    /*margin-top: 1px;*/
+    width: 100px;
+}
+
+/* Submenu */
+#menu ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 5px
+}
+
+/* Itens do submenu */
+#menu ul li ul li a {
+    width: 110px;
+    margin-top: -1px;
+}
+
+#menu ul li ul li a:hover  {
+   
+}
+
+/* PULO DO GATO!!  Faz aparecer o menu */
+#menu li:hover ul {
+    display: block;
+}
+
+/* Alterar a cor de background dos itens do menu */
+#menu ul li a:hover {
+    background-color: #ddd;
+}
+
 
 section {
     position: relative;
