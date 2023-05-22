@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/base.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
-    <title>thux tech</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/base.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+        <title>thux tech</title>
+    </head>
     <body>
         <header>
             <picture>
                 <img src="./images/thux_logo-comp.png" width="115px">
             </picture>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./base-page.html">Home</a></li>
+                        <li><a href="#">About Us</a>
+                            <!--<ul>
+                                <li><a href="#">sub 01</a></li>
+                                <li><a href="#">sub 02</a></li>
+                                <li><a href="#">sub 03</a></li>
+                            </ul> -->  
+                        </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <ul class="menu">
-                <li><a href="./base-page.html">Home</a></li>
-                    <li><a href="#">About Us</a>
-                        <ul>
-                            <li><a href="#">sub 01</a></li>
-                            <li><a href="#">sub 02</a></li>
-                            <li><a href="#">sub 03</a></li>
-                        </ul>
-                    </li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        
         <section id="banner">
-            <h1>Título Banner</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
+            <div class="texto">
+                <h1>Soluções Tecnológicas para seu Negócio</h1><br>
+                <p>
+                    Faça do seu Negócio crescer se posicionando no mundo virtual.<br>
+                    Sites Institucionais, Portifólios Online, Lojas Virtuais e muito mais.<br>
+                    A <strong>Thux Technology</strong> é lugar certo para te ajudar nessa jornada.
+                </p>
+            </div>
+            <div class="image">
+                <img srcset="./images/linux-tux_badge_penguin_linux_art-1979px.png" width="30%">
+                <!--<picture>
+                    <source media="(width: 550px)" srcset="./images/linux-tux_badge_penguin_linux_art-1979px.png">
+                </picture>-->
+            </div>
         </section>
         
         <section id="cards">
@@ -46,14 +55,14 @@
         </section>
 
         <section id="tech">
-            <h1>Tech Solutions</h1>
+            <h1>Soluções Simples</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </p>
         </section>
 
         <section id="portfolio">
-            <h1>Portfólio</h1>
+            <h1>O Jeito Thux</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </p>
