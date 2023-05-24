@@ -17,14 +17,14 @@
                 <img src="./images/thux_logo-comp.png" width="115px">
             </picture>
             <nav>
-                <ul class="menu">
+                <ul>
                     <li><a href="./base-page.html">Home</a></li>
-                        <li><a href="#">About Us</a>
-                            <!--<ul>
-                                <li><a href="#">sub 01</a></li>
-                                <li><a href="#">sub 02</a></li>
-                                <li><a href="#">sub 03</a></li>
-                            </ul>-->  
+                    <li class="dropdown"><a href="#" class="dropbtn">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="#">sub 01</a>
+                            <a href="#">sub 02</a>
+                            <a href="#">sub 03</a>
+                        </div>  
                         </li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
@@ -39,6 +39,7 @@
                     Sites Institucionais, Portifólios Online, Lojas Virtuais e muito mais.<br>
                     A <strong>Thux Technology</strong> é lugar certo para te ajudar nessa jornada.
                 </p>
+                <input type="button" class="button" value="Confira">
             </div>
             <div class="image">
                 <img srcset="./images/img-banner.jpg" width="50%">
@@ -49,9 +50,15 @@
         </section>
         
         <section id="cards">
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
+            <div class="s-card">
+                <a href="#">Soluções Simples</a>
+            </div>
+            <div class="s-card">
+                <a href="#">Portfólio</a>
+            </div>
+            <div class="s-card">
+                <a href="#">Jeito Thux</a>
+            </div>
         </section>
 
         <section id="tech">
