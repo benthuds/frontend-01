@@ -3,17 +3,22 @@
 *{
     font-size: 62,5%;
     font-family: 'Keania One', cursive;
+    text-decoration: none;
 }
 
 html{
     width: 80vmax;
     margin: 0 auto;
+    background-color: #000;
+    color: #9d44b5;
     /*background-image: url("../images/background-img.jpg");
     background-repeat: no-repeat;*/
 }
 
 body{
     position: relative;
+    background-color: #bfc0c0;
+    z-index: -100;
 }    
 
 header{
@@ -107,24 +112,24 @@ section {
 /* BOTAO BANNER - INICIO */
 div input{
     position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translate(-50%, 95%);
+    left: 65%;
+    top: 110%;
+    transform: translate(-50%, 105%);
     /*margin-top: 50px;*/
 }
 .button {
     font-size: 1.5rem;
     padding: 20px 35px;
     border-radius: 15px;
-    background-color: black;
-    color: white;
-    border: 3px solid #ffd700;
+    background-color: #cfd1d1;
+    color: #139a43;
+    border: 2px solid #9d44b5;
     box-shadow: 5px 9px 18px rgba(0, 0, 0, 0.5);
 }
 .button:hover {
-    background-color: #ffd700;
-    color: black;
-    border: 3px solid white;
+    background-color: #ff4a1c;
+    color: #bfc0c0;
+    border: 3px solid #139a43;
     box-shadow: 9px 13px 25px rgba(0, 0, 0, 0.9);
 }
 /* BOTAO BANNER - FIM */
@@ -145,57 +150,75 @@ div input{
     border-top-width: 5px;
     border-right-width: 11px;
     border-bottom-width: 16px;
-    border-color: gold;
+    border-color: #9d44b5;
     z-index: -1;
 }
 #banner div.image img {
     width: 100%;
     height: auto;
-    
 }
 /* IMAGEM ARREDONDADA - FIM */
 
+.titulos {
+    width: 100%;
+    color: #139a43;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.titulos {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px #ff4a1c;
+}
+
 /* SESSAO DE CARDS - INICIO */
-#cards {
+#cards {    
     position: relative;
-    height: 200px;
-    margin-bottom: 90px;
+    height: 300px;
+    margin-bottom: 150px;
     /*background-color: #aaa;*/
-    z-index: -2;
+    z-index: -1;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .s-card {
     position: relative;
-    padding: 3px 0;
-    margin: 0 80px;
+    padding: 5px 0;
+    margin: 0 50px;
     /*margin-top: 25px;
     margin-left: 10px;*/
-    height: 150px;
-    width: 200px;
-    background-color: #ffd700;
+    height: 300px;
+    width: 250px;
+    background-color: #cfd1d1;
     display: inline-block;
-    border: 3px solid black;
-    border-radius: 35px;
-    line-height: 150px;
+    border-bottom: 5px solid #9d44b5;
+    /*border-radius: 35px;*/
+    line-height: 50px;
     text-align: center;
     box-shadow: 5px 9px 18px rgba(0, 0, 0, 0.5);
+    color: #139a43;
 }
 .s-card:hover {
-    background-color: black;
-    border: 3px solid gold;
+    background-color: #ff4a1c;
+    border-bottom: 5px solid #139a43;
+    color: #bfc0c0;
     box-shadow: 9px 13px 25px rgba(0, 0, 0, 0.9);
 }
 /* SESSAO DE CARDS - FIM */
 
 #tech {
-
+    background-color: #9d44b5;
+    color: #bfc0c0;
+    text-align: right;
 }
 
-
 footer {
+    text-align: center;
     height: 200px;
-    background-color: #c0c0c0;
+    color: #bfc0c0;
+    background-color: #9d44b5;
 }
